@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/events-app-tt-frontend/static/css/main.0c9760ca.css",
+    "main.js": "/events-app-tt-frontend/static/js/main.ac2b6f4f.js",
+    "static/js/964.66194026.chunk.js": "/events-app-tt-frontend/static/js/964.66194026.chunk.js",
+    "static/js/315.d31b1b7e.chunk.js": "/events-app-tt-frontend/static/js/315.d31b1b7e.chunk.js",
+    "static/js/285.32e352d4.chunk.js": "/events-app-tt-frontend/static/js/285.32e352d4.chunk.js",
+    "static/js/418.7bd50c13.chunk.js": "/events-app-tt-frontend/static/js/418.7bd50c13.chunk.js",
+    "static/js/705.667184f3.chunk.js": "/events-app-tt-frontend/static/js/705.667184f3.chunk.js",
+    "index.html": "/events-app-tt-frontend/index.html",
+    "main.0c9760ca.css.map": "/events-app-tt-frontend/static/css/main.0c9760ca.css.map",
+    "main.ac2b6f4f.js.map": "/events-app-tt-frontend/static/js/main.ac2b6f4f.js.map",
+    "964.66194026.chunk.js.map": "/events-app-tt-frontend/static/js/964.66194026.chunk.js.map",
+    "315.d31b1b7e.chunk.js.map": "/events-app-tt-frontend/static/js/315.d31b1b7e.chunk.js.map",
+    "285.32e352d4.chunk.js.map": "/events-app-tt-frontend/static/js/285.32e352d4.chunk.js.map",
+    "418.7bd50c13.chunk.js.map": "/events-app-tt-frontend/static/js/418.7bd50c13.chunk.js.map",
+    "705.667184f3.chunk.js.map": "/events-app-tt-frontend/static/js/705.667184f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c9760ca.css",
+    "static/js/main.ac2b6f4f.js"
+  ]
+}

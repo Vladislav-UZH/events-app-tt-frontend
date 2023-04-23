@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/315.d31b1b7e.chunk.js","mappings":"gIAGA,UAHgB,WACd,OAAO,oCACR,C","sources":["pages/Profile.jsx"],"sourcesContent":["const Profile = () => {\n  return <div>Profile</div>;\n};\nexport default Profile;\n"],"names":[],"sourceRoot":""}
