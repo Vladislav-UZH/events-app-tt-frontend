@@ -63,6 +63,10 @@ const createEvent = async (id, body) => {
     return resp;
   } catch (e) {
     console.error(e);
+    if (e.response.status === 409) {
+      alert('You can`t create event for this time!');
+      return;
+    }
   }
 };
 // event DELETE

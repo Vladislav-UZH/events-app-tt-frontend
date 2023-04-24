@@ -45,9 +45,7 @@ const Events = ({ title }) => {
     const resp = await createEvent(id, body);
 
     if (!resp) {
-      alert(
-        'Failed, maybe you entered wrong dates or the start date is already taken !'
-      );
+      alert('Failed, maybe you entered wrong dates!');
       return;
     }
     setEvents(prev => [...prev, resp.data.data]);
