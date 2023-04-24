@@ -1,4 +1,11 @@
+import { Box } from 'components/Box/Box';
+import { Events } from 'components/Events/Events';
+
 const Profile = () => {
-  return <div>Profile</div>;
+  return (
+    <Box>
+      <Events title="Events" />
+    </Box>
+  );
 };
 export default Profile;

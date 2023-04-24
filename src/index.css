@@ -41,3 +41,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+input,
+select,
+textarea {
+  padding: 5px;
+  margin: 0 5px 10px 5px;
+  border: none;
+  border-radius: 4px;
+  color: #dbd7d7;
+  background-color: #585a63;
+}

@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
-import { AuthorsList } from 'components/AuthorsList/AuthorsList';
+import { Authors } from 'components/Authors/Authors';
 import { Box } from 'components/Box/Box';
-import { Panel } from 'components/Panel/Panel';
 import { useAuth } from 'hooks';
 const Container = styled.div`
   display: flex;
@@ -19,15 +18,12 @@ const Title = styled.h3`
 `;
 const Home = () => {
   const { isLoggedIn } = useAuth();
+
   return (
     <>
       {isLoggedIn ? (
         <Box>
-          <Panel
-            title="Dashboard"
-            filterOptions={[{ _id: 5458 }, { _id: 548 }]}
-          />
-          <AuthorsList />
+          <Authors title="Dashboard" />
         </Box>
       ) : (
         <Container>

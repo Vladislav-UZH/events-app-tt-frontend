@@ -1,21 +1,34 @@
-import { Input } from './Filter.styled';
-
-const Filter = ({ filterOptions }) => {
+const Filter = ({
+  currentOptions,
+  handleChangeFilterOption,
+  handleChangeFilterValue,
+}) => {
   return (
     <div>
-      <Input
-        // onChange={e => (e)}
-        // value={value}
-        type="text"
+      <input
         name="filter"
-        placeholder="Enter a name to search"
+        placeholder="Enter to search"
+        onChange={handleChangeFilterValue}
       />
-      <select name="" id="">
-        filterOptions
-        {filterOptions.map(({ _id }) => (
-          <option key={_id}></option>
+      <select
+        as="select"
+        onChange={handleChangeFilterOption}
+        defaultValue={currentOptions[0]}
+        name="filterOption"
+      >
+        {currentOptions.map(opt => (
+          <option key={opt} value={opt}>
+            {opt}
+          </option>
         ))}
       </select>
+
+      {/*       
+         <InputonChange={e => (e)}
+         value={value}
+        type="text"
+        name="filter"
+      /> */}
     </div>
   );
 };
