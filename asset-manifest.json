@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/events-app-tt-frontend/static/css/main.731f6ffa.css",
-    "main.js": "/events-app-tt-frontend/static/js/main.9a601978.js",
-    "static/js/315.999f5cd8.chunk.js": "/events-app-tt-frontend/static/js/315.999f5cd8.chunk.js",
-    "static/js/401.24628a64.chunk.js": "/events-app-tt-frontend/static/js/401.24628a64.chunk.js",
-    "static/js/285.32e352d4.chunk.js": "/events-app-tt-frontend/static/js/285.32e352d4.chunk.js",
-    "static/js/111.6b356710.chunk.js": "/events-app-tt-frontend/static/js/111.6b356710.chunk.js",
+    "main.js": "/events-app-tt-frontend/static/js/main.dfef6d6a.js",
+    "static/js/315.29ae75a0.chunk.js": "/events-app-tt-frontend/static/js/315.29ae75a0.chunk.js",
+    "static/js/401.5f542720.chunk.js": "/events-app-tt-frontend/static/js/401.5f542720.chunk.js",
+    "static/js/236.6d197395.chunk.js": "/events-app-tt-frontend/static/js/236.6d197395.chunk.js",
+    "static/js/111.4f9f95ad.chunk.js": "/events-app-tt-frontend/static/js/111.4f9f95ad.chunk.js",
     "static/js/705.667184f3.chunk.js": "/events-app-tt-frontend/static/js/705.667184f3.chunk.js",
     "index.html": "/events-app-tt-frontend/index.html",
     "main.731f6ffa.css.map": "/events-app-tt-frontend/static/css/main.731f6ffa.css.map",
-    "main.9a601978.js.map": "/events-app-tt-frontend/static/js/main.9a601978.js.map",
-    "315.999f5cd8.chunk.js.map": "/events-app-tt-frontend/static/js/315.999f5cd8.chunk.js.map",
-    "401.24628a64.chunk.js.map": "/events-app-tt-frontend/static/js/401.24628a64.chunk.js.map",
-    "285.32e352d4.chunk.js.map": "/events-app-tt-frontend/static/js/285.32e352d4.chunk.js.map",
-    "111.6b356710.chunk.js.map": "/events-app-tt-frontend/static/js/111.6b356710.chunk.js.map",
+    "main.dfef6d6a.js.map": "/events-app-tt-frontend/static/js/main.dfef6d6a.js.map",
+    "315.29ae75a0.chunk.js.map": "/events-app-tt-frontend/static/js/315.29ae75a0.chunk.js.map",
+    "401.5f542720.chunk.js.map": "/events-app-tt-frontend/static/js/401.5f542720.chunk.js.map",
+    "236.6d197395.chunk.js.map": "/events-app-tt-frontend/static/js/236.6d197395.chunk.js.map",
+    "111.4f9f95ad.chunk.js.map": "/events-app-tt-frontend/static/js/111.4f9f95ad.chunk.js.map",
     "705.667184f3.chunk.js.map": "/events-app-tt-frontend/static/js/705.667184f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.731f6ffa.css",
-    "static/js/main.9a601978.js"
+    "static/js/main.dfef6d6a.js"
   ]
 }
