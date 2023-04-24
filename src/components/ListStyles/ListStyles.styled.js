@@ -26,4 +26,29 @@ const Container = styled.div`
   display: flex;
   gap: 20px;
 `;
-export { Row, Field, FieldTitle, Table, StyledLink, Container };
+const CenteredContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+`;
+const BackgroundFormContainer = styled.div`
+  padding: 20px;
+  display: flex;
+  border-radius: 4px;
+  gap: 10px;
+  flex-direction: column;
+
+  background-color: rgb(50, 52, 59);
+`;
+
+export {
+  Row,
+  Field,
+  FieldTitle,
+  Table,
+  StyledLink,
+  Container,
+  CenteredContainer,
+  BackgroundFormContainer,
+};

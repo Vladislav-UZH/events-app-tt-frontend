@@ -23,7 +23,7 @@ const Home = () => {
     <>
       {isLoggedIn ? (
         <Box>
-          <Authors title="Dashboard" />
+          <Authors title="Authors" />
         </Box>
       ) : (
         <Container>

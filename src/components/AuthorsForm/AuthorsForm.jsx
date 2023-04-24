@@ -1,5 +1,6 @@
 import { Button } from 'components/Button/Button';
 import { FormLayout } from 'components/FormLayout/FormLayout';
+import { BackgroundFormContainer } from 'components/ListStyles/ListStyles.styled';
 import { Field } from 'formik';
 
 const AuthorsForm = ({ handleCreate }) => {
@@ -14,7 +15,7 @@ const AuthorsForm = ({ handleCreate }) => {
   };
   return (
     <FormLayout initialValues={initialValues} onSubmit={handleSubmit}>
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <BackgroundFormContainer>
         <Field
           minLength="2"
           maxLength="30"
@@ -44,7 +45,7 @@ const AuthorsForm = ({ handleCreate }) => {
           placeholder="enter a phone number"
         />
         <Button title="Save" type="submit" />
-      </div>
+      </BackgroundFormContainer>
     </FormLayout>
   );
 };

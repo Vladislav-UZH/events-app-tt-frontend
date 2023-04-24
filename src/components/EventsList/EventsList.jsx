@@ -34,7 +34,11 @@ const EventsList = ({ keys, events, handleDelete }) => {
           </tbody>
         </Table>
       </div>
-      {!events.length && <h3>No content here!</h3>}
+      {!events.length && (
+        <h3 style={{ position: 'absolute', top: 300, left: 100 }}>
+          No content here!
+        </h3>
+      )}
     </>
   );
 };

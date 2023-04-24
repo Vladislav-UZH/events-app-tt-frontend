@@ -31,6 +31,8 @@ export const register = createAsyncThunk(
       setAuthHeader(res.data.token);
       return res.data.data;
     } catch (err) {
+      alert('The email is already registered');
+
       return thunkAPI.rejectWithValue(err.message);
     }
   }
@@ -47,6 +49,7 @@ export const login = createAsyncThunk(
       setAuthHeader(res.data.data.token);
       return res.data.data;
     } catch (err) {
+      alert('Email or password invalid');
       return thunkAPI.rejectWithValue(err.message);
     }
   }

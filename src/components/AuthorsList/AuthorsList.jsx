@@ -50,7 +50,11 @@ const AuthorsList = ({ keys, authors, handleDelete }) => {
           </tbody>
         </Table>
       </div>
-      {!authors.length && <p>No content here!</p>}
+      {!authors.length && (
+        <h3 style={{ position: 'absolute', top: 300, left: 100 }}>
+          No content here!
+        </h3>
+      )}
     </>
   );
 };

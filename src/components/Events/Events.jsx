@@ -43,12 +43,16 @@ const Events = ({ title }) => {
   // Events ADD / DELETE
   const handleCreate = async body => {
     const resp = await createEvent(id, body);
+
     if (!resp) {
-      alert('Failed, maybe you entered wrong dates!');
+      alert(
+        'Failed, maybe you entered wrong dates or the start date is already taken !'
+      );
       return;
     }
-    console.log(resp.data.data);
     setEvents(prev => [...prev, resp.data.data]);
+    alert('Created!');
+    handleToggleModal();
   };
 
   const handleDelete = async id => {

@@ -1,5 +1,6 @@
 import { Button } from 'components/Button/Button';
 import { FormLayout } from 'components/FormLayout/FormLayout';
+import { BackgroundFormContainer } from 'components/ListStyles/ListStyles.styled';
 import { Field } from 'formik';
 const EventsForm = ({ handleCreate }) => {
   const initialValues = {
@@ -24,7 +25,7 @@ const EventsForm = ({ handleCreate }) => {
   };
   return (
     <FormLayout initialValues={initialValues} onSubmit={handleSubmit}>
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <BackgroundFormContainer>
         <Field
           minLength="2"
           maxLength="30"
@@ -53,7 +54,7 @@ const EventsForm = ({ handleCreate }) => {
           required={true}
         />
         <Button title="Save" type="submit" />
-      </div>
+      </BackgroundFormContainer>
     </FormLayout>
   );
 };

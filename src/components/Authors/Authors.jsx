@@ -56,8 +56,15 @@ const Authors = ({ title }) => {
   // authors ADD / DELETE
   const handleCreate = async body => {
     const resp = await createAuthor(body);
-    console.log(resp);
+    if (!resp) {
+      alert(
+        'Failed to create the author, please try again and change the email'
+      );
+      return;
+    }
     setAuthors(prev => [...prev, resp.data.data]);
+    alert('Created!');
+    handleToggleModal();
   };
 
   const handleDelete = async id => {
