@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkevents_app=self.webpackChunkevents_app||[]).push([[315],{315:function(e,n,s){s.r(n);var t=s(184);n.default=function(){return(0,t.jsx)("div",{children:"Profile"})}}}]);
-//# sourceMappingURL=315.d31b1b7e.chunk.js.map
